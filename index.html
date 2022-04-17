@@ -35,6 +35,10 @@
         function funWebApp() {
             Telegram.WebApp.close;
         }
+        
+        Telegram.WebApp.onEvent('mainButtonClicked', (e) => {
+            alert('ky');
+        });
     </script>
 
 
